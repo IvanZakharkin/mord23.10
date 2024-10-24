@@ -5,10 +5,13 @@ section.excursions
         h2.title-section Выбери туры и экскурсии
         .excursions__wrapper 
             .excursions__cards
+                // Тут чисто для удобстав интеграции, картинки лучше делать в виде картинок, а не background
                 .excursions__card(style="background-image: url(./img/excursions-img1.png)") 
-                    h3.title-block--excursions Интерактивы и мастер-классы 
+                    h3.title-block--excursions Интерактивы и мастер-классы
+                    // Дальше сделано в данном случае правильно, это ссылка. Но о чем говорили, чтобы пользователь не целился в эту кнопку, лучше вешать ссылку на всю карточку
                     button.excursions__btn 
                         span.excursions__btn-text Посмотри
+                        // Как писал в файле events, лучше всевдоэлеентом или спрайтом
                         img.excursions__btn-icon(src="./img/arrow-right.svg", alt="")
                 .excursions__card(style="background-image: url(./img/excursions-img2.png)")  
                     h3.title-block--excursions Интерактивы и мастер-классы 
