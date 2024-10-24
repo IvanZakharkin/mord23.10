@@ -4,6 +4,7 @@
 footer.footer 
       .footer__wrapper 
         .footer__inner-info
+            //отлично, что переиспользуешь блок. Но в данном случае класс должен быть .logo.logo--footer
           .logo--footer 
             img.logo__img--footer(src="./img/logo-footer.svg", alt="")
           .footer__info 
@@ -11,6 +12,7 @@ footer.footer
               span 430005, г. Саранск, ул. Б.Хмельницкого, д. 26, оф. 106
             a.footer__info-privacy-policy(href="") Политика конфиденциальности
         .footer__inner-actions 
+            //телефоны, emailы верстаем тоже как ссылки с соответс сующими ссылками - с tel: и mailto
           p.footer__tel +7 (8342) 77-76-77
           a.footer__question(href="#!") Задать вопрос
           ul.footer__social-list 
