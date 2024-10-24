@@ -27,6 +27,7 @@
     border-bottom-right-radius: 23px;
 }
 
+// В процентах, процентах и еще раз в процентах! :)
 .dont-miss__card:hover {
     width: 715px;
 }
@@ -58,8 +59,8 @@
 
 .dont-miss__card-text {
     margin-bottom: 15px;
-    max-width: 518px;
-    font-family: 'Manrope';
+    max-width: 518px; // В процентах, процентах и еще раз в процентах! :)
+    font-family: 'Manrope'; // Должен быть общий шрифт для всего. Такое используем, если только он отличается
     line-height: 1.14;
     font-size: 38px;
     font-weight: 700;
