@@ -34,7 +34,8 @@
             each title in headers
                 li.header__menu-item 
                     a.header__menu-link(href="#")=title.title
-    .header__actions 
+    .header__actions
+        //сразу предсталвяем(или уточняем) для чего этот элемент будет использоваться и верстаем под этот функционал. В данном случае это должны быть ссылки/кнопки
         .header__search 
             img.search__search-icon(src="./img/search-icon.svg" alt="Поиск")
         .header__airplane 
@@ -42,10 +43,12 @@
         .header__language 
             ul.header__language-text RU 
             img.header__language-icon(src="./img/arrow-icon.svg" alt="")
+    //это кнопка
     .header__burger-menu#burger 
         .header__burger-menu-el
         .header__burger-menu-el
         .header__burger-menu-el
+    //это тоже навигация, как и сделано выше - тег nav
     .header__sidebar 
         ul.header__sidebar-list
             each title in headers
